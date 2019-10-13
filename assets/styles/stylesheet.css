@@ -6,23 +6,129 @@ font-family: 'PT Sans', sans-serif;
 body{
     background-color:#013F3F;
     width:100%;
-    height:100%;
+    height:100vh;
 }
 .sideNavBar{
     background-color: #013333;
-    height:100%;
+    height:100vh;
     width: 5%;
     position: absolute;
     top: 0px;
     bottom: 0px;
 }
 .wrapper{
-    position: relative;
-    left: 5%;
+    margin-left:5%;
+    width:95%;
+    height:100vh;
 }
+.grayScaleImgWrapper{
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width:95%;
+    position: absolute;
+    top:0;
+    opacity: 0.4;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
+/* BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS */
+
 .sideNavButtons{
     font-size:2.5rem;
+    color:#666666;
+    margin-top:10px;
 }
 .sideNavSocialButtons{
-    font-size:2.5rem;
+    font-size:1.6rem;
+    display: block;
+    color:#666666;
+    margin-top:10px;
+}
+.contact-button{
+    text-align: center;
+    width: 110px;
+    height: 37px;
+    padding-bottom:35px;
+    line-height: 37px;
+    font-family: "Russo One";
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(216, 121, 4);
+    background: transparent;
+    border-radius: 15px;
+    border-width: 4px;
+    border-color:rgb(216, 121, 4);
+    position: relative;
+    left: 0;
+}  
+a {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover 
+{
+     color:rgb(216, 121, 4); 
+     text-decoration:none; 
+     cursor:pointer!important;  
+}
+button:hover{
+    background-color:rgb(216, 121, 4);
+    color:#013333;
+    cursor:pointer;
+}
+.navSocialButtons{
+
+    position:absolute;
+    top:0;
+    margin-top:80vh;
+    margin-left:25px;
+}
+.navButtons{
+
+    position:absolute;
+    top:0;
+    margin-top: 25vh;
+    margin-left: 15px;
+}
+.w{
+    font-size: 4rem;
+    margin-left:4px;
+    margin-top: 01vh;
+    color:white;
+}
+/* TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT */
+.nameHeader{
+    line-height: 1;
+    padding: 5px;
+    margin: 0px;
+    color: rgb(245, 245, 245);
+    font-family: "Russo One";
+    text-align: left;
+    font-size: 92px;
+    letter-spacing: normal;
+}
+.mainSubTitle{
+    line-height: 1;
+    padding: 5px;
+    margin: 0px;
+    color: rgb(224, 224, 224);
+    font-family: "PT Sans";
+    text-align: left;
+    font-size: 56px;
+    letter-spacing: normal;
+}
+.homeTextBox{
+    margin-left: 7%;
+    width: 40%;
+    opacity: 1;
+    margin-top:25vh;
+    position: absolute;
+    top:0;
 }
