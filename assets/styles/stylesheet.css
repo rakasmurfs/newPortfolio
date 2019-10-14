@@ -104,16 +104,18 @@ button:hover{
     color:white;
 }
 /* TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT */
+
 .nameHeader{
-    line-height: 1;
+    line-height: 1.1;
     padding: 5px;
     margin: 0px;
     color: rgb(245, 245, 245);
     font-family: "Russo One";
     text-align: left;
     font-size: 92px;
-    letter-spacing: normal;
+    letter-spacing: normal;   
 }
+
 .mainSubTitle{
     line-height: 1;
     padding: 5px;
@@ -131,4 +133,68 @@ button:hover{
     margin-top:25vh;
     position: absolute;
     top:0;
+    padding:20px;
 }
+span{
+    padding:0px!important;
+}
+
+
+/* RUBBERBAND ANIMATION */
+
+.buttonD {
+    display: inline-block;
+  
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+  
+  .buttonD {
+    animation-name: rubberBand;
+    color:#BF0335;
+  }
+  
+  
+  @keyframes rubberBand {
+    from {
+      transform: scale3d(1, 1, 1);
+      color:#BF0335;
+    }
+  
+    30% {
+      transform: scale3d(1, 0.75, 1);
+      color:#BF0335;
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+      color:#BF0335;
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+      color:#BF0335;
+    }
+  
+    65% {
+      transform: scale3d(.95, 1.05, 1);
+      color:#BF0335;
+    }
+  
+    75% {
+      transform: scale3d(1.05, .95, 1);
+      color:#BF0335;
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+          color:rgb(245, 245, 245);
+
+    }
+  }
+  
+  .rubberBand {
+    -webkit-animation-name: rubberBand;
+    animation-name: rubberBand;
+  }
