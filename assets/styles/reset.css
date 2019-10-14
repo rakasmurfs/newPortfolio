@@ -57,5 +57,5 @@ button {
 	outline: none;
   }
   button:active {
-	border-style: offset;
+	border-style: none;
   }

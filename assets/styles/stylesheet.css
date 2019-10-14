@@ -115,7 +115,31 @@ button:hover{
     font-size: 92px;
     letter-spacing: normal;   
 }
-
+.aboutCard{
+    position:absolute;
+    top:0;
+    margin-left: 15vh;
+    margin-top: 25vh;
+}
+.about{
+    color: #BF0335;
+    font-family:"Russo One";
+    text-align:left;
+    font-size:56px;
+    letter-spacing:normal;
+    margin:0px;
+    line-height:1.1;
+}
+.aboutSubText{
+    font-family:"PT Sans";
+    color:rgb(245, 245, 245);
+    font-weight:100;
+    width:40%;
+    margin-top: 20px;
+}
+.m{
+    margin-left:15px;
+}
 .mainSubTitle{
     line-height: 1;
     padding: 5px;
@@ -189,7 +213,7 @@ span{
   
     to {
       transform: scale3d(1, 1, 1);
-          color:rgb(245, 245, 245);
+          color:#BF0335;
 
     }
   }
@@ -197,4 +221,15 @@ span{
   .rubberBand {
     -webkit-animation-name: rubberBand;
     animation-name: rubberBand;
+  }
+  /*_______________________________________________________*/
+  .leftCard{
+    padding: 0px;
+    margin: 0px;
+    /*background: rgb(1, 63, 63);*/
+    position: absolute;
+    width: 55%;
+    height: 100vh;
+    top: 0px;
+    pointer-events: all;
   }
