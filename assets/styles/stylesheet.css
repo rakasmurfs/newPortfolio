@@ -11,7 +11,7 @@ body{
 .sideNavBar{
     background-color: #013333;
     height:100vh;
-    width: 5%;
+    width: 5vw;
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -38,12 +38,12 @@ body{
 /* BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS BUTTONS */
 
 .sideNavButtons{
-    font-size:2.5rem;
+    font-size:2.5vw;
     color:#666666;
     margin-top:10px;
 }
 .sideNavSocialButtons{
-    font-size:1.6rem;
+    font-size:1.6vw;
     display: block;
     color:#666666;
     margin-top:10px;
@@ -88,17 +88,17 @@ button:hover{
     position:absolute;
     top:0;
     margin-top:80vh;
-    margin-left:25px;
+    margin-left:1.5vw;
 }
 .navButtons{
 
     position:absolute;
     top:0;
     margin-top: 25vh;
-    margin-left: 15px;
+    margin-left: 1vw;
 }
 .w{
-    font-size: 4rem;
+    font-size: 4vw;
     margin-left:4px;
     margin-top: 01vh;
     color:white;
