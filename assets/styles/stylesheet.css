@@ -2,7 +2,14 @@
 font-family: 'Russo One', sans-serif;
 font-family: 'PT Sans', sans-serif;
 */
-
+.w{
+    margin-left:4px;
+    margin-top: 01vh;
+    color: rgb(245, 245, 245); 
+    font:4vw "Russo One", Helvetica, Arial, Sans-Serif;
+		text-shadow: 2px 2px #BF0335, 3px 3px #BF0335, 4px 4px #BF0335, 5px 5px #BF0335;
+		
+}
 body{
     background-color:#013F3F;
     width:100%;
@@ -104,12 +111,7 @@ button:hover{
     margin-top: 25vh;
     margin-left: 1vw;
 }
-.w{
-    font-size: 4vw;
-    margin-left:4px;
-    margin-top: 01vh;
-    color:white;
-}
+
 /* TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT */
 
 .nameHeader{
@@ -290,28 +292,29 @@ span{
   height:100%;
   background-size:cover;
   background-position:center;
-  background-image: url("../images/placeholder.png");
+  background-image: url("../images/cashTrack.png");
 }
 .project4{
   width:100%;
   height:100%;
   background-size:cover;
   background-position:center;
-  background-image: url("../images/placeholder.png");
+  background-image: url("../images/liriNodeApp.png");
 }
 .project5{
   width:100%;
   height:100%;
   background-size:cover;
   background-position:center;
-  background-image: url("../images/placeholder.png");
+  background-image: url("../images/ultimateDictionary.png");
+  background-repeat:no-repeat;
 }
 .project6{
   width:100%;
   height:100%;
   background-size:cover;
   background-position:center;
-  background-image: url("../images/placeholder.png");
+  background-image: url("../images/minionWars.png");
 }
 .project7{
   width:100%;
@@ -336,5 +339,8 @@ span{
 }
 .delay-500{
   animation-delay: 500ms;
+}
+.delay-1200{
+  animation-delay: 1200ms;
 }
 /*____________________________________________________________________________________________________*/
