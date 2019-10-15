@@ -12,3 +12,4 @@ $(".nameHeader").bind("webkitAnimationEnd mozAnimationEnd animationend", functio
   $(".about").hover(function(){
     $(this).addClass("buttonD");        
   })
+  

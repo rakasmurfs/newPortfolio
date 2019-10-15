@@ -1,16 +1,7 @@
-.wrap {
-  margin-top: 30vh;
-  margin-left:55%;
-  width:25%;
-  perspective: 1000px;
-  perspective-origin: 50% 50%;
-
-  /* Background stripes animation */
-}
-
 .cube {
-  margin: auto;
-  position: relative;
+  margin-top:30vh;
+  margin-left:55vw;
+  position: absolute;
   height: 200px;
   width: 200px;
   transform-style: preserve-3d;
@@ -92,29 +83,29 @@
 }
 
 .cube {
-  animation: rotate 20s infinite linear;
+  animation: rotate 15s infinite linear;
 }
 
-.wrap:hover .front {
+.cube:hover .front {
   transform: translateZ(200px);
 }
 
-.wrap:hover .back {
+.cube:hover .back {
   transform: translateZ(-200px) rotateY(180deg);
 }
 
-.wrap:hover .right {
+.cube:hover .right {
   transform: rotateY(-270deg) translateZ(100px) translateX(100px);
 }
 
-.wrap:hover .left {
+.cube:hover .left {
   transform: rotateY(270deg) translateZ(100px) translateX(-100px);
 }
 
-.wrap:hover .top {
+.cube:hover .top {
   transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
 }
 
-.wrap:hover .bottom {
+.cube:hover .bottom {
   transform: rotateX(270deg) translateZ(100px) translateY(100px);
 }
