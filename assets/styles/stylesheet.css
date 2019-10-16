@@ -249,8 +249,11 @@ span{
   opacity: 0;
   transition: visibility 0s, opacity 0.4s linear;
 }
-.projects:hover a{
-  display:table-cell;
+.projects:hover a{  /* Thanks Nelio */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
   height: 120px;
   width: 120px;
   font-size: 24px;
@@ -259,7 +262,6 @@ span{
   background-color:rgb(3, 170, 170);
   border-radius: 50%;
   text-align:center;
-  vertical-align: middle;
   cursor: pointer;    
   visibility: visible;
   opacity: 1;
