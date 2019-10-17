@@ -355,4 +355,84 @@ span{
 .delay-1200{
   animation-delay: 1200ms;
 }
-/*____________________________________________________________________________________________________*/
+/*______________________________________________CONTACT PAGE_____________________________________________________*/
+.contactCard{
+  padding: 0px;
+  margin: 0px;
+  background: rgb(1, 63, 63);
+  position: absolute;
+  width: 55vw;
+  height: 100vh;
+  top: 0px;
+  pointer-events: all;
+  border-right: solid 2px;
+  box-shadow: rgb(31, 31, 31) 2px 2px;
+}
+.contactCard a{
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.8vw;
+}
+.twitter{
+  height: 11vh;
+  width: 11vw;
+  margin-left: 20%;
+  margin-top: 25vh;
+  text-align: center;
+  display: inline-block;
+}
+.contactCard i{
+  font-size: 8vw;
+  color: #0478A5;
+}
+.twitter:hover a{
+  color:#BF0335;
+}
+.linkedIn:hover a{
+  color:#BF0335;
+}
+.linkedIn{
+  height: 11vh;
+  width: 11vw;
+  margin-left: 6vw;
+  margin-top: 25vh;
+  text-align: center;
+  display: inline-block;
+}
+.email{
+  height: 13vh;
+  width: 17vw;
+  margin-left: 14%;
+  margin-top: 16vh;
+  text-align: center;
+  display: inline-block;
+}
+.phone{
+  height: 13vh;
+  width: 11vw;
+  margin-left: 3vw;
+  margin-top: 16vh;
+  text-align: center;
+  display: inline-block;
+}
+.phone p{
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.3vw;
+  margin-top:5%;
+}
+.email p{
+  color: white;
+  font-family: "Russo One", sans-serif;
+  font-size: 1.3vw;
+  margin-top:5%;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
