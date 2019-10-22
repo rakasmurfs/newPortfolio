@@ -21,3 +21,17 @@ $(".rubber").hover(function(){
   $(this).addClass("buttonD");        
 })
 
+$(document).ready(function() {
+  if( ! $('#myCanvas').tagcanvas({
+    textColour : '#0478A5',
+    outlineThickness : 1,
+    maxSpeed : 0.05,
+    depth : 1
+  })) {
+    // TagCanvas failed to load
+    $('#myCanvasContainer').hide();
+  }
+  $("#myCanvas").tagcanvas("setspeed", [0.250, -0.140]);
+});
+//[0.210, 0.140]
+//0.05
